@@ -1,3 +1,5 @@
+import streamlit as st
+import csv
 def variant1():
     st.header("Посчитать долю пассажиров Титаника, указав: вести поиск среди спасенных или погибших, искать в возрастных группах до 30 лет или старше 60 лет")
     with open("data.csv") as file:
